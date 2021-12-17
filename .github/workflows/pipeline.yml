@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
+          jest-version: '25.5.4'
       - name: npm install
         run: npm install
       - name: lint
